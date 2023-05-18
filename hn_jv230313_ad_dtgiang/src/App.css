@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+  background-image: url(https://img6.thuthuatphanmem.vn/uploads/2022/02/25/anh-nen-story-instagram_075451996.jpg);
+}
+.cart {
+  padding-bottom: 50px;
+}
+
+.cart-icon {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: transparent;
+  width: 30px;
+  height: 50px;
+  border: none;
+  margin-left: 1300px;
+  position: relative;
+}
+.totalAmount {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  top: 20px;
+  right: 0;
+}
+.onDisplay {
+  width: 500px;
+  display: none;
+  margin: auto;
+}
+.offDisplay {
+  width: 500px;
+  display: block;
+  margin: auto;
+}
+/*Cart*/
+.cart-show img {
+  width: 50px;
+  height: 100px;
+}
+.infoProduct {
+  margin-top: 40px;
+}
+.infoProduct button {
+  border: none;
+  background-color: transparent;
+}
+.cart-show {
+  display: flex;
+  gap: 50px;
+}
+.btn {
+  margin-left: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+}
+/*Card*/
+.card {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+.img img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+.product {
+  background-color: black;
+  width: 200px;
+  border: white;
+  border-radius: 10px;
+}
+.description {
+  border-radius: 10px;
+  background-color: rgb(172, 166, 166);
+  color: white;
+  font-size: 16px;
+  height: auto;
+}
+.count {
+  display: flex;
+  text-decoration: row;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+}
+.count button {
+  width: 30px;
+  height: 20px;
+  margin-top: 10px;
+  border: none;
+  color: white;
+  background-color: transparent !important;
+}
+.count span {
+  padding-top: 10px;
+}
+button:hover {
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
